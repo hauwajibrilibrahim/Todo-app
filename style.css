@@ -1,0 +1,109 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #9d41b4;
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%, -50%);
+}
+h1 {
+    margin: 1opx;
+    padding: 20px;
+    text-align: center;
+    color: #9d41b4;
+
+}
+#new {
+    position: relative;
+    padding: 30px 20px;
+}
+
+#new input {
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color:black ;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+#new input:focus {
+    outline: none;
+    border-color: #9d41b4;
+}
+
+#new button {
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #9d41b4;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family:'Courier New', Courier, monospace;
+    }
+    
+    #tasks {
+        border-radius: 10px;
+        width: 100%;
+        position: relative;
+        background-color: #ffffff;
+        padding: 30px 20px;
+        margin-top: 10px;
+    }
+    
+    .task {
+        border-radius: 5px;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #939697;
+        cursor: pointer;
+        background-color: #9d41b4;
+        height: 50px;
+        margin-bottom: 8px;
+        padding: 5px 10px;
+        display: flex;
+        }
+        
+        .task span {
+            font-family:'Courier New', Courier, monospace;
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 400;
+        }
+        
+        .task button {
+            background-color:ash;
+            color: #9d41b4;
+            border: none;
+            cursor: pointer;
+            outline: none;
+            height: 100%;
+            width: 60px;
+            border-radius: 5px;
+        }
